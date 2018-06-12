@@ -1,0 +1,8 @@
+<view class='container'>
+<scroll-view class='section editor' style='height:750rpx;' scroll-y="true" bindscrolltolower="loadMore">
+<view class='search-bar-warper'>
+<icon type='search' size="16"></icon>
+<input bingchange="search" placeholder='Keywords'></input>
+</view>
+</scroll-view>
+</view>
