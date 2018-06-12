@@ -1,0 +1,4 @@
+/* pages/discovery/discovery.wxss */
+.container {
+    align-items:flex-start;
+}

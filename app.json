@@ -1,0 +1,37 @@
+{
+  "pages":[
+    "pages/discovery/discovery",
+    "pages/detail/detail",
+    "pages/search/search",
+    "pages/profile/profile",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "500px.com",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color":"#000",
+    "list": [{
+      "pagePath": "pages/discovery/discovery",
+      "text": "Explore",
+      "iconPath": "/images/editor-off.png",
+      "selectedIconPath": "/images/editor-on.png"
+    },
+    {
+      "pagePath": "pages/search/search",
+      "text": "Search",
+      "iconPath": "/images/search-off.png",
+      "selectedIconPath": "/images/search-on.png"
+    },
+    {
+      "pagePath": "pages/profile/profile",
+      "text": "Profile",
+      "iconPath": "images/profile-off.png",
+      "selectedIconPath": "images/profile-on.png"
+    }
+    ]
+  }
+}
